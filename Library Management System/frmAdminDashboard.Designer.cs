@@ -71,28 +71,28 @@
             this.logoutToolStripMenuItem});
             this.menuAdmin.Location = new System.Drawing.Point(0, 0);
             this.menuAdmin.Name = "menuAdmin";
-            this.menuAdmin.Size = new System.Drawing.Size(800, 36);
+            this.menuAdmin.Size = new System.Drawing.Size(800, 33);
             this.menuAdmin.TabIndex = 0;
             this.menuAdmin.Text = "menuAdmin";
             // 
             // booksToolStripMenuItem
             // 
             this.booksToolStripMenuItem.Name = "booksToolStripMenuItem";
-            this.booksToolStripMenuItem.Size = new System.Drawing.Size(77, 32);
+            this.booksToolStripMenuItem.Size = new System.Drawing.Size(77, 29);
             this.booksToolStripMenuItem.Text = "Books";
             this.booksToolStripMenuItem.Click += new System.EventHandler(this.booksToolStripMenuItem_Click);
             // 
             // UsersMenus
             // 
             this.UsersMenus.Name = "UsersMenus";
-            this.UsersMenus.Size = new System.Drawing.Size(71, 32);
+            this.UsersMenus.Size = new System.Drawing.Size(71, 29);
             this.UsersMenus.Text = "Users";
             this.UsersMenus.Click += new System.EventHandler(this.UsersMenus_Click);
             // 
             // logoutToolStripMenuItem
             // 
             this.logoutToolStripMenuItem.Name = "logoutToolStripMenuItem";
-            this.logoutToolStripMenuItem.Size = new System.Drawing.Size(85, 32);
+            this.logoutToolStripMenuItem.Size = new System.Drawing.Size(85, 29);
             this.logoutToolStripMenuItem.Text = "Logout";
             this.logoutToolStripMenuItem.Click += new System.EventHandler(this.logoutToolStripMenuItem_Click);
             // 
@@ -106,9 +106,9 @@
             this.panelDashboard.Controls.Add(this.panelTotalBorrowers);
             this.panelDashboard.Controls.Add(this.panelTotalBooks);
             this.panelDashboard.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelDashboard.Location = new System.Drawing.Point(0, 36);
+            this.panelDashboard.Location = new System.Drawing.Point(0, 33);
             this.panelDashboard.Name = "panelDashboard";
-            this.panelDashboard.Size = new System.Drawing.Size(800, 414);
+            this.panelDashboard.Size = new System.Drawing.Size(800, 417);
             this.panelDashboard.TabIndex = 1;
             // 
             // panelOverdue

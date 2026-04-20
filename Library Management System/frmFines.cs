@@ -5,12 +5,6 @@ using System.Windows.Forms;
 
 namespace Library_Management_System
 {
-    // This form is for Librarians to view fines
-    // Design: create a new Windows Form named frmFines
-    // Add these controls:
-    //   - DataGridView: dgFines
-    //   - Button: btnRefresh
-    //   - Label: lblTotalFines
 
     public partial class frmFines : Form
     {

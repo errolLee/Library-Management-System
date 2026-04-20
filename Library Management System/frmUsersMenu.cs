@@ -225,5 +225,10 @@ namespace Library_Management_System
                 }
             }
         }
+
+        private void btnEdit_Click_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }

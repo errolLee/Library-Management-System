@@ -5,14 +5,7 @@ using System.Windows.Forms;
 
 namespace Library_Management_System
 {
-    // This form is for Librarians to issue and return books
-    // Design: create a new Windows Form named frmTransaction
-    // Add these controls:
-    //   - Label: "Borrower Username:"  TextBox: txtBorrower
-    //   - Label: "Book Title:"         TextBox: txtBook (for search)
-    //   - Button: btnSearchBook        DataGridView: dgBooks
-    //   - Button: btnIssue             Button: btnReturn
-    //   - DataGridView: dgTransactions (shows all active transactions)
+  
 
     public partial class frmTransaction : Form
     {
